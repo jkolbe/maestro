@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     android:background="@color/white"
+    android:tag="20" >
+    
+    <RelativeLayout
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/lines_with_notes"
+        android:orientation="horizontal" >
+	 </RelativeLayout>
+	<!--  <RelativeLayout 
+	    android:layout_below="@+id/menu"
+	    android:id="@+id/buttons"
+	    android:orientation="horizontal"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="20dp"
+		android:background="@color/white">	
+		<Button
+		    android:id="@+id/StartButton"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		     android:layout_toLeftOf="@+id/StopButton"
+		    android:background="@drawable/play"/>
+		
+
+	</RelativeLayout> -->
+	
+	<LinearLayout
+	     android:layout_below="@+id/menu"
+	    android:id="@+id/opengl"
+	    android:layout_width="fill_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+
+	</LinearLayout>
+	<TextView android:id="@+id/StatusTextView"
+		android:layout_width="wrap_content" android:layout_height="fill_parent" />
+
+	<Button
+	    android:id="@+id/StopButton"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBottom="@+id/menu"
+	    android:layout_alignParentRight="true"
+	    android:background="@drawable/stop" />
+
+	<Button
+	    android:id="@+id/StartButton"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/StopButton"
+	    android:layout_alignBottom="@+id/StopButton"
+	    android:layout_toLeftOf="@+id/StopButton"
+	    android:background="@drawable/play" />
+
+</RelativeLayout>

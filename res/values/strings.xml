@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+    <string name="app_name">Maestro</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sign">sign in</string>
+    <string name="log">log in</string>
+    <string name="create">create account</string>
+    <string name="create2">create</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="onBeat">onBeat</string>
+    <string name="maestro">maestro</string>
+    <string name="profile">profile</string>
+    <string name="scores">Scores</string>
+    <string name="play_now">play now</string>
+    <string name="percent">%</string>
+    <string name="music_store">music store</string>
+    <string name="log_out">log out</string>
+    <string name="full_name">full name</string>
+    <string name="email">email</string>
+    <string name="play_again">play again</string>
+    <string name="new_song">new song</string>
+   
+    
+    <string name="song1">Sarah\'s Theme - FFXIII</string>
+    <string name="song2">Revolutionary Etude – Chopin</string>
+    <string name="song3">Fur Elise - Beethoven</string>
+    <string name="song4">Gymnopédie No.1 - Erik Satie</string>
+    <string name="song5">Moonlight Sonata – Beethoven</string>
+    
+    
+    <string name="score1">82%</string>
+    <string name="score2">75%</string>
+    <string name="score3">90%</string>
+    <string name="score4">68%</string>
+    <string name="score5">60%</string>
+
+    <color name="gray">#343434</color>
+    <color name="blue">#29ACE2</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="orange">#f09423</color>
+
+    <string name="title_activity_log_in">LogInActivity</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_activity_music_sheet">MusicSheet</string>
+    <string name="title_activity_create_account">CreateAccount</string>
+    <string name="title_activity_play">Play</string>
+    <string name="title_activity_user_account">UserAccount</string>
+    <string name="title_activity_select_song">Song Selection</string>
+    <string name="title_activity_score">Score</string>
+
+    <!-- Image Descriptions -->
+    <string name="to_user_profile">Go to profile</string>
+    <string name="piano_icon">piano</string>
+    <string name="note">note</string>
+    <string name="image">image</string>
+
+    
+
+</resources>
